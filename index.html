@@ -3,11 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
-    <script src="index.js"></script>
     <link rel="stylesheet" href="index.css" />
     <title>Document</title>
   </head>
   <body>
-    <p class="title">Todo List</p>
+    <div class="input-area">
+      <input placeholder="TODOを入力" />
+      <button>タスクの追加</button>
+    </div>
+
+    <div class="incomplete-area">
+      <p>未完了のタスク</p>
+      <ul>
+        <div>
+          <li>todoです</li>
+          <button>完了</button>
+          <button>削除</button>
+        </div>
+      </ul>
+    </div>
+
+    <div class="complete-area">
+      <p>完了したタスク</p>
+      <ul>
+        <div>
+          <li>todo</li>
+          <button>戻す</button>
+        </div>
+      </ul>
+    </div>
+    <script src="index.js"></script>
   </body>
 </html>
